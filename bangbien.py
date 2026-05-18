@@ -47,12 +47,3 @@ data = {
     "Missing Values": ["no"] * 25
 }
 
-# 2. Tạo DataFrame từ dữ liệu trên
-df_variables = pd.DataFrame(data)
-
-# 3. Hiển thị bảng dạng định dạng Markdown đẹp mắt trong Terminal
-print("=== BẢNG DANH SÁCH BIẾN SỐ (VARIABLES TABLE) ===")
-print(df_variables.to_markdown(index=False))
-
-# 4. Tùy chọn: Xuất bảng này ra file Excel nếu bạn cần dùng để chèn vào Word
-# df_variables.to_excel("Variables_Table.xlsx", index=False)
